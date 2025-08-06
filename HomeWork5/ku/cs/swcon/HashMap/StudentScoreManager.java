@@ -1,4 +1,4 @@
-package HomeWork5.HashMap.ku.cs.swcon;
+package HomeWork5.ku.cs.swcon.HashMap;
 
 import java.util.HashMap;
 
@@ -19,16 +19,6 @@ public class StudentScoreManager {
         System.out.println("Student Score: ");
         for(String id : studentScores.keySet()){
             System.out.println(id + ":" + studentScores.get(id));
-        }
-    }
-    public class Main {
-        public static void main(String[] args) {
-            StudentScoreManager manager = new StudentScoreManager();
-            manager.addOrUpdateScore("671040", 80);
-            manager.addOrUpdateScore("671040", 80);
-            manager.addOrUpdateScore("671040", 80);
-            System.out.println(manager.getScore("671040"));
-            manager.printAllScore();
         }
     }
 }

@@ -1,4 +1,4 @@
-package HomeWork5.ArrayList.ku.cs.swcon;
+package HomeWork5.ku.cs.swcon.ArrayList;
 
 import java.util.ArrayList;
 
@@ -23,24 +23,9 @@ class ClassroomManager {
     public void printStudents(){
         System.out.println("List of students:");
         for(int i = 0; i < students.size(); i++ ){
-            System.err.printf("%d %s\n", i + 1, students.get(i));
+            System.out.printf("%d %s\n", i + 1, students.get(i));
         }
-    }
-
-
-    public class Main{
-        public static void main(String[] args) {
-            // object
-            ClassroomManager room = new ClassroomManager();
-
-            // polymorphism
-            room.addStudent("Noon");
-            room.addStudent("Noon");
-            room.removeStudent("Noon");
-            room.printStudents();
-        }
-    }
-        
+    } 
 }
 
 

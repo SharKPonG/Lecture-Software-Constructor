@@ -1,9 +1,7 @@
-package HomeWork5.ArrayListHashMap.ku.cs.swcon;
+package HomeWork5.ku.cs.swcon.ArrayListHashMap;
 
-import java.beans.PropertyDescriptor;
 import java.util.ArrayList;
 import java.util.HashMap;
-
 
 public class SalesAnalyzer {
     
@@ -34,16 +32,6 @@ public class SalesAnalyzer {
 
         for (String category :  categoryCount.keySet()){
             System.out.println(category + ": " + categoryCount.get(category));  
-        }
-    }
-
-    public class Main{
-        public static void main(String[] args) {
-            SalesAnalyzer analyzer = new SalesAnalyzer();
-            analyzer.addProduct("Laptop", "Electronics");
-            analyzer.addProduct("Smartphone", "Electronics");
-            analyzer.addProduct("Notebook", "Stationery");
-            analyzer.printCategorySummary();    
         }
     }
 }

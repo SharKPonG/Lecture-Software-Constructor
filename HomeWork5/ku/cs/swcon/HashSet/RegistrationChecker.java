@@ -1,4 +1,4 @@
-package HomeWork5.HashSet.ku.cs.swcon;
+package HomeWork5.ku.cs.swcon.HashSet;
 
 import java.util.HashSet;
 
@@ -17,17 +17,6 @@ public class RegistrationChecker {
         System.out.println("Registered: ");
         for(String name : registrants){
             System.out.println(name);
-        }
-    }
-
-
-    public class main{
-        public static void main(String[] args) {
-            RegistrationChecker checker = new RegistrationChecker();
-            System.out.println(checker.register("Noon")); // true
-            System.out.println(checker.register("Noon")); // true
-            System.out.println(checker.register("Noon")); // false
-            checker.printAllRegistrants();
         }
     }
 }
