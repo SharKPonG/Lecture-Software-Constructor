@@ -19,6 +19,9 @@ public class SalesAnalyzer {
         productList = new ArrayList<>();
     }
 
+
+    
+
     public void addProduct(String name, String category){
         productList.add(new Product(name, category));
     }
