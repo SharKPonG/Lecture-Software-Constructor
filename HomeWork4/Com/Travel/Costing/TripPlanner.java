@@ -1,4 +1,4 @@
-package HomeWork.Com.Travel.Costing;
+package HomeWork4.Com.Travel.Costing;
 
 public class TripPlanner {
     public Trip planTrip(String from, String to, double distanceKm, double baseFare) {

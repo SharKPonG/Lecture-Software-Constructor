@@ -1,4 +1,4 @@
-package HomeWork.Com.Organization.Booking;
+package HomeWork4.Com.Organization.Booking;
 
 public class BookingManager {
     private MeetingRoom[] rooms = new MeetingRoom[3];

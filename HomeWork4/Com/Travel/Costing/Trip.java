@@ -1,4 +1,4 @@
-package HomeWork.Com.Travel.Costing;
+package HomeWork4.Com.Travel.Costing;
 
 public class Trip {
     private String from;
